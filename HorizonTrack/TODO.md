@@ -1,0 +1,5 @@
+- [x] Update .sidebar2 in dstyles.css to match .calendarmonth-sbon-light-sidebar from cstyles.css (already matching)
+- [x] Ensure .sb-hover-* classes match between files (added child classes)
+- [x] Keep .hide-sidebar from dstyles.css
+- [x] Test the changes (dashboard.html opened successfully)
+- [x] Undo all changes from the TODO (removed .calendarmonth-sbon-light-sidebar and .sidebar-child from dstyles.css)
