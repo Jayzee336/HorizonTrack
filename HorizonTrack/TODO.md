@@ -1,0 +1,5 @@
+- [ ] Add Admin & Employee Login & Signup
+- [x] Add Time In functionality
+- [ ] 
+- [ ] 
+- [ ]
