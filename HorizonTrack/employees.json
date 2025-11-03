@@ -1,0 +1,24 @@
+{
+    "employees": {
+        "Gatan": {
+            "fullName": "Angelo Josef Gatan",
+            "employeeID": "09083"
+        },
+        "Nanual": {
+            "fullName": "Jayce Bruce Nanual",
+            "employeeID": "09079"
+        },
+        "Mendoza": {
+            "fullName": "Joshua Carl Mendoza",
+            "employeeID": "09084"
+        },
+        "Fuentes": {
+            "fullName": "Lebron Fuentes",
+            "employeeID": "09080"
+        },
+        "Delos Santos": {
+            "fullName": "Ethan Delos Santos",
+            "employeeID": "09082"
+        }
+    }
+}
