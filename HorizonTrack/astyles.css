@@ -1,0 +1,886 @@
+body {
+    margin: 0;
+    line-height: normal;
+    }
+    .attendance-sbon-light {
+        width: 100%;
+        height: 1080px;
+        position: relative;
+        background-color: #fbfbfb;
+        overflow: hidden;
+        text-align: left;
+        font-size: 50px;
+        color: #fff;
+        font-family: Poppins;
+        }
+        .header {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 1920px;
+        height: 100px;
+        text-align: center;
+        }
+        .header-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #039ab4;
+        width: 1920px;
+        height: 100px;
+        }
+        .company-name {
+        position: absolute;
+        top: 16px;
+        left: 952px;
+        font-weight: 600;
+        display: inline-block;
+        width: 458px;
+        height: 61px;
+        text-shadow: 0px 4px 28.5px rgba(0, 0, 0, 0.25);
+        }
+        .sidebar {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 429px;
+        height: 1080px;
+        font-size: 17.47px;
+        color: #262626;
+        }
+        .attendance-sbon-light-sidebar {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        box-shadow: 6px 0px 36.1px -8px rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+        width: 429px;
+        height: 980px;
+        }
+        .sidebar-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 6px 0px 36.1px -8px rgba(0, 0, 0, 0.25);
+        background-color: #0cc0df;
+        width: 429px;
+        height: 100px;
+        }
+        .untitled-design-27-1 {
+        position: absolute;
+        top: 19px;
+        left: 89px;
+        width: 251px;
+        height: 81px;
+        object-fit: cover;
+        }
+        .attendance {
+        position: absolute;
+        top: 578px;
+        left: 18px;
+        width: 393px;
+        height: 73px;
+        font-size: 24px;
+        cursor: pointer;
+        }
+        .attendance-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 10px;
+        background-color: #d2eef3;
+        border: 3px solid #0cc0df;
+        box-sizing: border-box;
+        width: 393px;
+        height: 73px;
+        }
+        .sbon-light-attendance {
+        position: absolute;
+        top: 18px;
+        left: 71px;
+        font-weight: 500;
+        display: inline-block;
+        width: 182px;
+        height: 36px;
+        }
+        .vector-icon {
+        position: absolute;
+        height: 43.84%;
+        width: 8.14%;
+        top: 27.4%;
+        right: 86.51%;
+        bottom: 28.77%;
+        left: 5.34%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        }
+        .sb-hover-emp {
+        position: absolute;
+        top: 405px;
+        left: 18px;
+        width: 393px;
+        height: 73px;
+        cursor: pointer;
+        }
+        .sb-hover-emp-child {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        border-radius: 10px;
+        background-color: #fff;
+        }
+        .employees {
+        position: absolute;
+        height: 34.25%;
+        width: 40.46%;
+        top: 32.88%;
+        left: 14.76%;
+        font-weight: 500;
+        display: inline-block;
+        }
+        .attendance-sbon-light-vector-icon {
+        position: absolute;
+        height: 31.51%;
+        width: 7.79%;
+        top: 34.25%;
+        right: 87.38%;
+        bottom: 34.25%;
+        left: 4.83%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        }
+        .sb-hover-prj {
+        position: absolute;
+        top: 488px;
+        left: 18px;
+        width: 393px;
+        height: 73px;
+        cursor: pointer;
+        }
+        .vector-icon2 {
+        position: absolute;
+        height: 31.51%;
+        width: 5.85%;
+        top: 34.25%;
+        right: 88.3%;
+        bottom: 34.25%;
+        left: 5.85%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        }
+        .sb-hover-cal {
+        position: absolute;
+        top: 322px;
+        left: 18px;
+        width: 393px;
+        height: 73px;
+        cursor: pointer;
+        }
+        .sb-hover-dsh {
+        position: absolute;
+        top: 239px;
+        left: 18px;
+        width: 393px;
+        height: 73px;
+        cursor: pointer;
+        }
+        .profile {
+        position: absolute;
+        top: 117px;
+        left: 18px;
+        width: 393px;
+        height: 110px;
+        font-size: 24px;
+        }
+        .profile-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 20px;
+        background-color: #efefef;
+        width: 393px;
+        height: 110px;
+        }
+.profile-first-name {
+        position: absolute;
+        top: 30px;
+        left: 101px;
+        font-weight: 500;
+        display: inline-block;
+        width: 276px;
+        height: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 18px;
+}
+.profile-last-name {
+        position: absolute;
+        top: 55px;
+        left: 101px;
+        font-weight: 500;
+        display: inline-block;
+        width: 276px;
+        height: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 18px;
+}
+        .picture {
+        position: absolute;
+        top: 21px;
+        left: 21px;
+        width: 67px;
+        height: 67px;
+        }
+        .n-1 {
+        position: absolute;
+        top: 0px;
+        left: -4px;
+        width: 74.3px;
+        height: 75.9px;
+        }
+        .user {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        width: 71.4px;
+        height: 71.4px;
+        }
+        .user-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+        background-color: #787878;
+        border: 8px solid #a9a8a8;
+        box-sizing: border-box;
+        width: 71.4px;
+        height: 71.4px;
+        }
+        .attendance-sbon-light-user {
+        position: absolute;
+        top: 15.96px;
+        left: 15.12px;
+        width: 40.3px;
+        height: 40.3px;
+        overflow: hidden;
+        }
+        .lebron-icon {
+        position: absolute;
+        top: -14px;
+        left: -13px;
+        width: 67px;
+        height: 67px;
+        object-fit: cover;
+        }
+        .attendance2 {
+        position: absolute;
+        top: 130px;
+        left: 471px;
+        font-weight: 600;
+        color: #0cc0df;
+        display: inline-block;
+        width: 343px;
+        height: 61px;
+        }
+        .clock {
+        position: absolute;
+        top: 218px;
+        left: 469px;
+        width: 580px;
+        height: 283px;
+        font-size: 66.73px;
+        color: #1e1e1e;
+        }
+        .clock-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 0px 20.9px -1px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #fff;
+        width: 580px;
+        height: 283px;
+        }
+        .b {
+        position: absolute;
+        top: 81px;
+        left: 254px;
+        display: inline-block;
+        width: 250px;
+        height: 88.6px;
+        font-size: 55px;
+        }
+
+        .ampm {
+        position: absolute;
+        top: 86px;
+        left: 490px;
+        font-size: 50px;
+        display: inline-block;
+        width: 60px;
+        height: 66px;
+        }
+        .august-21-2025 {
+        position: absolute;
+        top: 150px;
+        left: 254px;
+        font-size: 29.04px;
+        font-weight: 500;
+        display: inline-block;
+        width: 400px;
+        height: 44.6px;
+        }
+        .saturday {
+        position: absolute;
+        top: 183px;
+        left: 254px;
+        font-size: 25.52px;
+        font-weight: 500;
+        color: #0cc0df;
+        display: inline-block;
+        width: 225px;
+        height: 39.2px;
+        }
+        .attendance-sbon-light-clock {
+        position: absolute;
+        top: 41px;
+        left: 25px;
+        width: 202px;
+        height: 202px;
+        text-align: center;
+        font-size: 22.51px;
+        }
+        .clock-circle {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 0px 13.68px 2.75px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        background-color: #fff;
+        width: 202px;
+        height: 202px;
+        }
+        .hour-hand {
+        position: absolute;
+        top: 101px;
+        left: 61px;
+        width: 40px;
+        height: 3px;
+        background-color: #1e1e1e;
+        transform-origin: 100% 50%;
+        border-radius: 2px;
+        }
+
+        .minute-hand {
+        position: absolute;
+        top: 101px;
+        left: 41px;
+        width: 60px;
+        height: 2px;
+        background-color: #1e1e1e;
+        transform-origin: 100% 50%;
+        border-radius: 1px;
+        }
+
+        .second-hand {
+        position: absolute;
+        top: 101px;
+        left: 31px;
+        width: 70px;
+        height: 1px;
+        background-color: #cf3030;
+        transform-origin: 100% 50%;
+        }
+        .hour-line-icon {
+        position: absolute;
+        top: 91px;
+        left: 46px;
+        width: 59.2px;
+        height: 12.8px;
+        object-fit: contain;
+        }
+        .minute-line-icon {
+        position: absolute;
+        top: 98px;
+        left: 99px;
+        width: 83.6px;
+        height: 57.1px;
+        object-fit: contain;
+        }
+        .clock-item {
+        position: absolute;
+        top: 94px;
+        left: 94px;
+        border-radius: 50%;
+        background-color: #1e1e1e;
+        width: 14px;
+        height: 14px;
+        }
+        .clock-inner {
+        position: absolute;
+        top: 97px;
+        left: 97px;
+        border-radius: 50%;
+        background-color: #cf3030;
+        width: 8px;
+        height: 8px;
+        }
+        .div {
+        position: absolute;
+        top: 0px;
+        left: 90px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .attendance-sbon-light-div {
+        position: absolute;
+        top: 169px;
+        left: 90px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div2 {
+        position: absolute;
+        top: 83px;
+        left: 3px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div3 {
+        position: absolute;
+        top: 43px;
+        left: 20px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div4 {
+        position: absolute;
+        top: 123px;
+        left: 16px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div5 {
+        position: absolute;
+        top: 123px;
+        left: 163px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div6 {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div7 {
+        position: absolute;
+        top: 155px;
+        left: 132px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div8 {
+        position: absolute;
+        top: 45px;
+        left: 163px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div9 {
+        position: absolute;
+        top: 14px;
+        left: 50px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div10 {
+        position: absolute;
+        top: 14px;
+        left: 130px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .div11 {
+        position: absolute;
+        top: 83px;
+        left: 177px;
+        font-weight: 600;
+        display: inline-block;
+        width: 23px;
+        height: 27.1px;
+        }
+        .seconds-line-icon {
+        position: absolute;
+        top: 88px;
+        left: 101px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 108.4px;
+        object-fit: contain;
+        }
+.live-attendance {
+        position: absolute;
+        top: 534px;
+        left: 469px;
+        width: 579px;
+        height: 493px;
+        font-size: 20px;
+        color: #595959;
+        }
+        .live-attendance-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 0px 20.9px -1px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #fff;
+        width: 579px;
+        height: 493px;
+        }
+        /* Add scroll container for attendance entries */
+        .attendance-entries-container {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        width: 100%;
+        height: calc(100% - 80px);
+        overflow-y: auto; /* vertical scrolling */
+        overflow-x: hidden; /* prevent horizontal scrolling */
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        }
+
+        .attendance-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        }
+
+        .section-heading {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+        padding: 10px 0;
+        border-bottom: 2px solid;
+        }
+
+        .time-in-heading {
+        color: #2d8a2d;
+        border-bottom-color: #2d8a2d;
+        }
+
+        .time-out-heading {
+        color: #8a2d2d;
+        border-bottom-color: #8a2d2d;
+        }
+
+        .section-entries {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        }
+        .attendance-sbon-light-live-attendance {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #333;
+        display: inline-block;
+        }
+
+        .this-day {
+        position: absolute;
+        top: 28px;
+        right: 30px;
+        font-weight: 500;
+        color: #666;
+        font-size: 16px;
+        }
+        .gats {
+        position: absolute;
+        top: 235.49px;
+        left: 24px;
+        width: 550.7px;
+        height: 28.7px;
+        }
+        .out {
+        position: absolute;
+        top: 0px;
+        left: 34px;
+        font-weight: 600;
+        display: inline-block;
+        width: 47px;
+        height: 28.7px;
+        }
+        .angelo-josef-gatan-container {
+        position: absolute;
+        top: 3.83px;
+        left: 86px;
+        font-size: 16.24px;
+        display: inline-block;
+        width: 464.7px;
+        height: 22px;
+        }
+        .span {
+        font-weight: 600;
+        }
+        .gats-child {
+        position: absolute;
+        top: 9.57px;
+        left: 0px;
+        border-radius: 10px;
+        background-color: #d15f5f;
+        width: 24px;
+        height: 10.5px;
+        }
+        .jayce-bruce-nanual-container {
+        position: absolute;
+        top: -8px;
+        left: 3.3px;
+        font-size: 16.24px;
+        display: inline-block;
+        width: 445.7px;
+        height: 22px;
+        }
+        .jus {
+        position: absolute;
+        top: 168.48px;
+        left: 23px;
+        width: 533px;
+        height: 28.7px;
+        }
+        .leb {
+        position: absolute;
+        top: 134.98px;
+        left: 23px;
+        width: 533px;
+        height: 28.7px;
+        }
+        .ethan {
+        position: absolute;
+        top: 101.47px;
+        left: 23px;
+        width: 533px;
+        height: 28.7px;
+        }
+        .in {
+        position: absolute;
+        top: 0px;
+        left: 33.54px;
+        font-weight: 600;
+        display: inline-block;
+        width: 27.5px;
+        height: 28.7px;
+        }
+        .ethan-delos-santos-container {
+        position: absolute;
+        top: 3.83px;
+        left: 68.27px;
+        font-size: 16.24px;
+        display: inline-block;
+        width: 464.7px;
+        height: 22px;
+        }
+        .ethan-child {
+        position: absolute;
+        top: 9.57px;
+        left: 0px;
+        border-radius: 10px;
+        background-color: #5fc05f;
+        width: 26.4px;
+        height: 10.5px;
+        }
+        .attendance-entry {
+        position: relative;
+        width: 100%;
+        margin-top: -15px;
+        margin-left: 5px;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        transition: background-color 0.2s;
+        }
+
+        .attendance-entry:hover {
+        background-color: #f0f0f0;
+        }
+
+        .jaycein, .jayceout {
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 45px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        
+        }
+        .attendance-sbon-light-in,
+        .attendance-sbon-light-out {
+        position: relative;
+        font-weight: 600;
+        left: -5px;
+        width: 48px; /* fixed width keeps IN and OUT aligned */
+        text-align: center;
+        padding: 4px 8px;
+        border-radius: 5px;
+        font-size: 14px;
+        flex-shrink: 0;
+        }
+
+        .attendance-sbon-light-in {
+        color: #2d8a2d;
+        background-color: #e6ffe6;
+        }
+
+        .attendance-sbon-light-out {
+        color: #8a2d2d;
+        background-color: #ffe6e6;
+        }
+
+        .attendance-sbon-light-jayce-bruce-nanual-container,
+        .jayce-bruce-nanual-container {
+        position: relative;
+        left: 10px;
+        font-size: 15px;
+        flex-grow: 1;
+        line-height: 1.4;
+        }
+
+        .attendance-sbon-light-jayce-bruce-nanual-container .span,
+        .jayce-bruce-nanual-container .span {
+        color: #333;
+        margin-right: 8px;
+        }
+
+        .jaycein-child,
+        .jayceout-child {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 10px;
+        width: 6px;
+        height: 25px;
+        }
+
+        .jaycein-child {
+        background-color: #5fc05f;
+        }
+
+        .jayceout-child {
+        background-color: #d15f5f;
+        }
+        .time-in {
+        position: absolute;
+        top: 23px;
+        left: 1685px;
+        width: 174px;
+        height: 54px;
+        font-size: 23.63px;
+        }
+        .time-in-hover {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 174px;
+        height: 54px;
+        }
+        .time-in-hover-child {
+        position: absolute;
+        height: 118.52%;
+        width: 105.75%;
+        top: -9.26%;
+        right: -2.87%;
+        bottom: -9.26%;
+        left: -2.87%;
+        border-radius: 10px;
+        border: 5px solid #fff;
+        box-sizing: border-box;
+        }
+        .attendance-sbon-light-time-in {
+        position: absolute;
+        height: 60.93%;
+        width: 52.3%;
+        top: 18.52%;
+        left: 6.32%;
+        font-weight: 600;
+        display: inline-block;
+        }
+        .log-in-03-svgrepo-com-1-icon {
+        position: absolute;
+        height: 81.48%;
+        width: 25.29%;
+        top: 9.26%;
+        right: 5.75%;
+        bottom: 9.26%;
+        left: 68.97%;
+        max-width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        }
+        .notifications {
+        position: absolute;
+        top: 218px;
+        left: 1084px;
+        width: 797px;
+        height: 809px;
+        }
+        .notifications-child {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 0px 20.9px -1px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #fff;
+        width: 797px;
+        height: 809px;
+        }
+        .attendance-sbon-light-child {
+        position: absolute;
+        top: 723px;
+        left: 1149px;
+        width: 243px;
+        height: 243px;
+        }        
