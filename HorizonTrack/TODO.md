@@ -1,2 +1,0 @@
-- [x] Remove the "Leave History" button (leave-history div) from employees.html
-- [x] Remove the "Employees" button (employees3 div) from employees.html
