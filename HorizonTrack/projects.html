@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="pstyles.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+</head>
+<body>
+<div class="projects-sbon-light">
+<div class="header">
+<div class="header-child">
+</div>
+<div class="jacent-prime">JACENT PRIME</div>
+</div>
+<div class="sidebar">
+<div class="projects-sbon-light-sidebar">
+</div>
+<div class="sidebar-child">
+</div>
+<img class="untitled-design-27-1" src="logo2.png" alt="">
+<div class="sb-hover-att">
+<div class="sb-hover-att-child">
+</div>
+<div class="attendance">Attendance</div>
+<img class="vector-icon" src="clock.png" alt="">
+</div>
+<div class="projects">
+<div class="projects-child">
+</div>
+<div class="sbon-light-projects">Projects</div>
+<img class="projects-sbon-light-vector-icon" src="projects.png" alt="">
+</div>
+<div class="sb-hover-emp">
+<div class="sb-hover-att-child">
+</div>
+<div class="attendance">Employees</div>
+<img class="vector-icon2" src="employee.png" alt="">
+</div>
+<div class="sb-hover-cal">
+<div class="sb-hover-att-child">
+</div>
+<div class="attendance">Calendar</div>
+<img class="vector-icon" src="calendar.png" alt="">
+</div>
+<div class="sb-hover-dsh">
+<div class="sb-hover-att-child">
+</div>
+<div class="attendance">Dashboard</div>
+<img class="vector-icon" src="dashboardIcon.png" alt="">
+</div>
+<div class="profile">
+<div class="profile-child">
+</div>
+<div class="profile-first-name"></div>
+<div class="profile-last-name"></div>
+<img class="lebron-icon" src="Lebron.png" alt="">
+</div>
+<img class="hide-sidebar-icon" src="hideSidebar.png" alt="" id="hideSidebarIcon">
+</div>
+<div class="square">
+<div class="square-child">
+</div>
+<div class="create-project">
+<div class="create-project-child">
+</div>
+<div class="create-project-text">Create Project</div>
+</div>
+<div class="remove-project">
+<div class="remove-project-child">
+</div>
+<div class="remove-project-text">Remove Project</div>
+</div>
+<div class="devider">
+</div>
+<div class="div">1</div>
+<div class="projects-sbon-light-div">1</div>
+<img class="view" src="view.png" alt="View Project" style="cursor: pointer;">
+<div class="labels">
+<div class="labels-child">
+</div>
+<div class="no">No.</div>
+<div class="name">Name</div>
+<div class="my-tasks">Tasks</div>
+<div class="progress">Progress</div>
+<div class="due-date">Due Date</div>
+<div class="actions">View Project</div>
+</div>
+<div id="projectsList">
+</div>
+</div>
+<div class="projects2">PROJECTS</div>
+<div class="projects-sbon-light-child">
+</div>
+<!-- Create Project Modal -->
+<div id="createProjectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Create New Project</h2>
+    <form id="createProjectForm">
+      <div class="form-group">
+        <label for="projectName">Project Name:</label>
+        <input type="text" id="projectName" required>
+      </div>
+      <div class="form-group">
+        <label for="projectDescription">Description:</label>
+        <textarea id="projectDescription" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="projectTasks">Tasks:</label>
+        <div id="tasksContainer">
+          <div class="task-item">
+            <input type="text" class="task-input" placeholder="Enter task 1">
+            <button type="button" class="remove-task-btn">&times;</button>
+          </div>
+        </div>
+        <button type="button" id="addTaskBtn" class="add-task-btn">Add Task</button>
+      </div>
+      <div class="form-group">
+        <label for="projectDueDate">Due Date:</label>
+        <input type="datetime-local" id="projectDueDate">
+      </div>
+      <button type="submit" class="submit-btn">Create Project</button>
+    </form>
+  </div>
+</div>
+<!-- Remove Project Modal -->
+<div id="removeProjectModal" class="remove-project-modal">
+  <div class="remove-project-content">
+    <span class="remove-project-close">&times;</span>
+    <div class="remove-project-header">
+      <h2 class="remove-project-title">
+        Remove Projects
+      </h2>
+    </div>
+    <p class="remove-project-message">Select the projects you want to remove:</p>
+    <div id="removeProjectsList"></div>
+    <div class="remove-project-buttons">
+      <button id="removeSelectedBtn" class="remove-project-confirm-btn">Remove Selected</button>
+    </div>
+  </div>
+</div>
+<div class="time-in">
+<div class="time-in-hover" style="cursor: pointer;">
+<div class="time-in-hover-child">
+</div>
+<div class="projects-sbon-light-time-in">Time In</div>
+<img class="log-in-03-svgrepo-com-1-icon" src="timeIn.png" alt="">
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
